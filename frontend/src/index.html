@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online broadcasting</title>
+</head>
+<body>
+<h1 class="header">Online chat</h1>
+<div id="chat-container"></div>
+
+<!-- Oкно предупреждения о занятом никнейме -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modal-message"></p>
+  </div>
+</div>
+
+<div class="chat">
+  <div id="nameList" class="nameList">
+    <div class="name name-template">
+      <img class="user-img" alt="">
+      <span class="user-name">Dune</span>
+    </div>
+  </div>
+
+  <div id="messages-container" class="messages-container">
+    <div class="message message-template">
+      <div class="message-data">
+        <span class="message-name">Пользователь 1:</span>
+        <span class="message-date">дата</span>
+      </div>
+      <span class="message-text">Сообщение 1</span>
+    </div>
+
+    <div class="chat-input-text">
+    <input type="text" id="message-input"  placeholder="Type your message here">
+    <button type="submit" id="send-message-button" class="btn">Sent</button>
+    </div>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>
