@@ -5,9 +5,9 @@ import {hideModal, showModal} from "./constructor";
 const root = document.getElementById('chat-container');
 
 
-const chatApi = new ChatApi("ws://localhost:3000/");
+const chatApi = new ChatApi("ws://chat-v23v.onrender.com/");
         // users => chatApp.updateUsersList(users),
         // message => chatApp.addMessage(message));
 
-const chatApp = new ChatApp(root, "http://localhost:3000/", chatApi);
+const chatApp = new ChatApp(root, "https://chat-v23v.onrender.com/", chatApi);
 
